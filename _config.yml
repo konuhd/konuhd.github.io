@@ -151,7 +151,19 @@ paginate: 10
 
 # The base URL of your site
 baseurl: ""
-
+timezone: Asia/Shanghai
+title: nero's ctf journey
+tagline: XXX
+description: >-
+  there are some writeup about ctf.
+url: "https://konuhd.github.io"
+github:
+  username: nero
+social:
+  name: konuhd
+  email: 3208296150@qq.com
+  links:
+    - https://github.com/konuhd
 # ------------ The following options are not recommended to be modified ------------------
 
 kramdown:
