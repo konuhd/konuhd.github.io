@@ -153,7 +153,7 @@ paginate: 10
 baseurl: ""
 timezone: Asia/Shanghai
 title: nero's ctf journey
-tagline: XXX
+tagline: nero's ctf journey
 description: >-
   there are some writeup about ctf.
 url: "https://konuhd.github.io"
