@@ -98,7 +98,6 @@ theme_mode: # [light | dark]
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:/b5a646269fae7d442350211d192dea2b.png
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
@@ -150,6 +149,9 @@ pwa:
 paginate: 10
 
 # The base URL of your site
+# =========================================================================
+
+
 baseurl: ""
 timezone: Asia/Shanghai
 title: nero's ctf journey
@@ -164,6 +166,10 @@ social:
   email: 3208296150@qq.com
   links:
     - https://github.com/konuhd
+
+avatar: /b5a646269fae7d442350211d192dea2b.png
+
+
 # ------------ The following options are not recommended to be modified ------------------
 
 kramdown:
