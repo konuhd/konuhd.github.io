@@ -1,3 +1,9 @@
+---
+layout: post
+title: "[HECTF2024]easyreee" 
+date:  2024-12-11 11:28:12 +0530
+categories: jekyll update
+---
 # [HECTF2024]easyreee
 ### 用16进制打开exe文件后，将全部"CTF"字样替换为"UPX"
 ### 再用upx -d 进行脱壳
