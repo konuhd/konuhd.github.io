@@ -9,7 +9,7 @@ categories: jekyll update
 ### 再用upx -d 进行脱壳
 + # 进入main
 
-```C
+```c
 int __cdecl main(int argc, const char **argv, const char **envp)
 {
   int data[27]; // [rsp+20h] [rbp-A0h]
@@ -101,5 +101,5 @@ for i in range(len(s)):
         cot+=1
 print(s)
 ```
-##flag:bytearray(b'HECTF{Re_1s_s0_1nterest1ng}')
-##即HECTF{Re_1s_s0_1nterest1ng}
+## flag:bytearray(b'HECTF{Re_1s_s0_1nterest1ng}')
+## 即HECTF{Re_1s_s0_1nterest1ng}
