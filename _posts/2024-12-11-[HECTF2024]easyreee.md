@@ -8,7 +8,8 @@ categories: jekyll update
 ### 用16进制打开exe文件后，将全部"CTF"字样替换为"UPX"
 ### 再用upx -d 进行脱壳
 + # 进入main
-```idc
+
+```C
 int __cdecl main(int argc, const char **argv, const char **envp)
 {
   int data[27]; // [rsp+20h] [rbp-A0h]
@@ -70,8 +71,10 @@ int __cdecl main(int argc, const char **argv, const char **envp)
   return 0;
 }
 ```
+
 由flag第6位是"{",求出k.
 再写个逆向函数
+
 ```python
 import string
 k=0
