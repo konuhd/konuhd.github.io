@@ -8,15 +8,15 @@ categories: jekyll update
 
 + ## 题目
 题目如下
-```asm
-   .section   .data
+```
+.section   .data
 flag: .space 28
 key:  .ascii "rev"
 data: .byte 0x6a,0x28,0x3d,0x4e,0x2b,0x5,0x63,0x1e,0xd,0x73,0x10,0x1c,0x73,0x24,0x21,0x73,0x5e,0x21,0x31,0x5d,0x21,0x3f,0xc,0xd,0x6d,0x4c,0x3
 msg_wrong:  .ascii "WRONG!!!\n"
 msg_right:  .ascii "Right!!\n"
-   .section   .text
-   .globl  main
+.section   .text
+.globl  main
 main:
     pushl   %ebp
     movl    %esp, %ebp
@@ -109,8 +109,8 @@ end_main:
     movl    %ebp, %esp
     popl    %ebp
     ret
-```
 
+```
 观察到encrypt_loop为加密函数
 书写解密函数
 ```python
