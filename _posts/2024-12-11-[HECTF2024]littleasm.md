@@ -2,7 +2,7 @@
 layout: post
 title: "[HECTF]littleasm" 
 date:  2024-12-11 11:28:12 +0530
-categories: jekyll update
+categories: ctf HECTF
 ---
 # [HECTF]littleasm
 
